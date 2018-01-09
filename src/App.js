@@ -8,11 +8,16 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
+          <h1>Pathephone</h1>
+          <hr className='App-header__divider' />
+          <h2>distributed audio player</h2>
+          <br />
+          <a className='App-header__latest-release'
+            href='https://github.com/pathephone/pathephone-desktop/releases/latest'
+          >
+            Get latest release
+          </a>
         </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
       </div>
     );
   }
