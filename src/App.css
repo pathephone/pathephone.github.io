@@ -1,24 +1,10 @@
-.App {
-  text-align: center;
+header {
+  background: #C33764;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #1D2671, #C33764);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #1D2671, #C33764); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 7.5em;
-}
-
-.App-header {
-  background-color: #222;
-  padding: 10em;
-  color: white;
-}
-
-.App-header__divider {
-  width: 5em;
-}
-
-.App-header__latest-release {
-  border: 1px solid orange;
-  padding: 1em;
-  color: orange;
+.app__logo {
+  height: 100px;
 }

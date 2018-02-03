@@ -1,23 +1,31 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
-import './App.css';
+
+import './App.css'
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1>Pathephone</h1>
-          <hr className='App-header__divider' />
-          <h2>distributed audio player</h2>
+      <div className="">
+        <header className="w3-center w3-padding-64 w3-text-white">
+          <img src={logo} className="app__logo" alt="logo" />
+          <h1 className=''>Pathephone</h1>
+          <p>distributed audio player</p>
           <br />
-          <a className='App-header__latest-release'
+          <a className='w3-btn w3-orange'
             href='https://github.com/pathephone/pathephone-desktop/releases/latest'
           >
             Get latest release
           </a>
         </header>
+        <div className='w3-center'>
+          <p className='w3-large'>
+            Imagine Spotify | Google Music | iTunes powered by torrents.
+          </p>
+          <p>
+            Yeah, you get it right.
+          </p>
+        </div>
       </div>
     );
   }
