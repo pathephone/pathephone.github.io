@@ -8,3 +8,17 @@ header {
 .app__logo {
   height: 100px;
 }
+
+.key-features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.key-feature {
+  max-width: 25em;
+}
+
+.izi-uppercase {
+  text-transform: uppercase;
+}
