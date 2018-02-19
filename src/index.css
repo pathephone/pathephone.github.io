@@ -4,3 +4,23 @@ body, html {
     line-height: 1.8;
     margin: 0;
 }
+
+svg {
+  fill: currentColor;
+}
+
+.font-icon {
+  vertical-align: middle;
+}
+
+.font-icon svg {
+  height: 1em;
+}
+
+.izi-block {
+  display: block;
+}
+
+.margin-left-if-not-first:not(:first-child) {
+  margin-left: 1em;
+}

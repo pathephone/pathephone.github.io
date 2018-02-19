@@ -7,8 +7,9 @@
     "gh-pages": "^1.1.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
+    "react-icons": "^2.2.7",
     "react-scripts": "1.0.17",
-    "react-icons": "^2.2.7"
+    "react-toggle-view": "^1.0.1"
   },
   "scripts": {
     "start": "react-scripts start",

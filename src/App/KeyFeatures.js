@@ -16,8 +16,8 @@ const KeyFeature = ({ Icon, short, full }) => (
 export default () => (
   <div className="w3-container w3-margin-top" id="about">
     <br />
-    <h3 className="w3-center">Imagine torrent based streaming application that autodiscovers music for you</h3>
-    <p className="w3-center w3-large">Yeah, it sounds like a revolt</p>
+    <h3 className="w3-center">Imagine streaming application without a single server, yet able to discover music for you</h3>
+    <p className="w3-center w3-large">Yeah, it sounds like a magic</p>
     <br />
     <hr />
     <div className="key-features w3-center w3-margin-top">
@@ -38,13 +38,13 @@ export default () => (
       />
       <KeyFeature
         Icon={MdPlanet}
-        short='Available everywere'
+        short='Available everywhere'
         full='No regional limits, works even behind Great Chinese Firewall'
       />
       <KeyFeature
         Icon={MdDollar}
         short='No fee'
-        full='There is no one in control, there is no one will ever charge a fee'
+        full='There is no one in control, and no one will ever charge a fee'
       />
     </div>
   </div>

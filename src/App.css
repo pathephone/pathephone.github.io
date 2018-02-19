@@ -2,8 +2,8 @@ header {
   background: #C33764;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #1D2671, #C33764);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #1D2671, #C33764); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  
 }
+
 
 .app__logo {
   height: 100px;
@@ -21,4 +21,41 @@ header {
 
 .izi-uppercase {
   text-transform: uppercase;
+}
+
+.roadmap__stage {
+  position: relative;
+  width: 50%;
+}
+
+.roadmap__stage::before {
+  position: absolute;
+  content: '';
+  height: 15px;
+  width: 15px;
+  background-color: #e2e2e2;
+  border-radius: 50%;
+  border: 3.5px solid white;
+}
+
+.roadmap__stage.--checked::before {
+  background-color: red;
+}
+
+.roadmap__stage:nth-child(odd) {
+  margin-left: calc(50% - 1px);
+  border-left: 1px solid red;
+}
+.roadmap__stage:nth-child(odd)::before {
+  left: -7.5px;
+  top: 15px;
+}
+.roadmap__stage:nth-child(even) {
+  border-right: 1px solid red;
+  text-align: right;
+}
+
+.roadmap__stage:nth-child(even)::before {
+  right: -8px;
+  top: 15px;
 }
