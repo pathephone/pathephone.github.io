@@ -72,7 +72,7 @@ class GetReleaseButton extends React.Component {
         view.push(
           <a 
             key='download'
-            className='w3-btn w3-border'
+            className='w3-btn w3-border w3-margin'
             href={browser_download_url}
           >
             {
@@ -90,7 +90,7 @@ class GetReleaseButton extends React.Component {
           return (
             <a 
               key={extension}
-              className='w3-btn w3-border margin-left-if-not-first'
+              className='w3-btn w3-border w3-margin'
               href={browser_download_url}
             >
               {
