@@ -24,3 +24,11 @@ svg {
 .margin-left-if-not-first:not(:first-child) {
   margin-left: 1em;
 }
+
+.izi-multiline {
+  word-wrap: break-word;
+}
+
+.izi-pointer {
+  cursor: pointer;
+}
