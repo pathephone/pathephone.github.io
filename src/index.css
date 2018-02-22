@@ -32,3 +32,11 @@ svg {
 .izi-pointer {
   cursor: pointer;
 }
+
+.izi-nowrap {
+  word-wrap: none;
+}
+
+a {
+  text-decoration: none;
+}

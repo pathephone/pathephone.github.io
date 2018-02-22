@@ -20,7 +20,7 @@ export default () => (
     <p className="w3-center w3-large">Yeah, it sounds like a magic</p>
     <br />
     <hr />
-    <div className="key-features w3-center w3-margin-top">
+    <div className="key-features w3-center">
       <KeyFeature
         Icon={MdP2p}
         short='Completly serverless'

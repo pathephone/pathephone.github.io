@@ -1,6 +1,7 @@
 import React from 'react'
 import logo from './logo.svg';
 import GetReleaseButton from './Header/GetReleaseButton'
+import Contacts from './Contacts'
 
 export default () => (
   <header className="w3-center w3-padding-64 w3-text-white">
@@ -8,7 +9,10 @@ export default () => (
     <h1 className=''>Pathephone</h1>
     <p className='izi-uppercase'>music player without limits</p>
     <br />
-    <GetReleaseButton />
+    <div>
+      <GetReleaseButton />
+    </div>
     <br />
+    <Contacts />
   </header>
 )
