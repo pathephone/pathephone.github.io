@@ -20,6 +20,7 @@ class App extends Component {
         <Donate />
         <hr />
         <Contacts />
+        <br />
       </div>
     );
   }
