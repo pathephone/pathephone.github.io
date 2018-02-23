@@ -1,5 +1,7 @@
 {
  "name": "Pathephone",
+ "short_name": "Pathephone",
+ "description": "Distributed music streaming app",
  "icons": [
   {
    "src": "\/android-icon-36x36.png",
@@ -37,5 +39,9 @@
    "type": "image\/png",
    "density": "4.0"
   }
- ]
+ ],
+ "start_url": "./index.html",
+ "display": "standalone",
+ "theme_color": "#000000",
+ "background_color": "#ffffff"
 }
