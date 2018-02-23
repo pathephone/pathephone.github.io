@@ -120,7 +120,7 @@ class GetReleaseButton extends React.Component {
           key='redirect'
           href='https://github.com/pathephone/pathephone-desktop/releases/latest'
         >
-          <small>availble for Mac, Windows and Linux</small>
+          <small>available for Mac, Windows and Linux</small>
         </a>
       )
       return view
