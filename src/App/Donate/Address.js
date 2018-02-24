@@ -15,7 +15,7 @@ class Address extends React.Component {
     copyied: null
   }
   handleCopyAddress = () => {
-    const selection = selectElementText(this.addressNode)
+    selectElementText(this.addressNode)
     try {
       document.execCommand('copy');
       this.setState({ copyied: true })

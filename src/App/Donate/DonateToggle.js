@@ -31,7 +31,7 @@ const DonateToggle = ({ Icon, name, color, qrCode, address, modalTitle }) => {
         <br />
         <div className="w3-container">
           <div>
-            <img src={qrCode} />
+            <img src={qrCode} alt='qr code' />
             <Address address={address} />
           </div>
         </div>
