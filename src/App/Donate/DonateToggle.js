@@ -16,14 +16,14 @@ const DonateToggle = ({ Icon, name, color, qrCode, address, modalTitle }) => {
   const View = ({ hideView }) => (
     <div className="w3-modal izi-block">
       <div className="w3-modal-content">
-        <div class={`w3-container w3-${color}`}>
+        <div className={`w3-container w3-${color}`}>
           <button
             onClick={hideView}
             className="w3-button w3-display-topright"
           >
             <MdClose />
           </button>
-          <h2 className=''>
+          <h2>
             <Icon />
             <span className='w3-margin-left'>{modalTitle}</span>
           </h2>

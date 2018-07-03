@@ -65,3 +65,7 @@ header {
   margin-left: 50%;
   transform: translateX(-50%);
 }
+
+.w3-modal {
+  display: block;
+}
