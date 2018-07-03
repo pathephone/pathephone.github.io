@@ -59,3 +59,9 @@ header {
   right: -8px;
   top: 15px;
 }
+
+.screenshot {
+  width: 50em;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
