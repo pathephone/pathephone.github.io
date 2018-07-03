@@ -8,19 +8,19 @@ const roadmapData = [
     checked: true
   },
   {
-    text: `Sync user's library across devices.`,
+    text: 'Sync music library across devices.',
     checked: false
   },
   {
-    text: `Decentralized music search engine.`,
+    text: 'Decentralized music search engine.',
     checked: false
   },
   {
-    text: `Cryptocurrencies integration`,
+    text: 'Pathephone Progressive Web App',
     checked: false
   },
   {
-    text: `Pathephone for mobile devices`,
+    text: 'Cryptocurrencies integration',
     checked: false
   },
 ]
