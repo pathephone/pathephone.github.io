@@ -19,7 +19,7 @@ export default () => (
     <h3 className="w3-center">Imagine streaming application without a single server, yet able to discover music for you</h3>
     <p className="w3-center w3-large">Yeah, it sounds like a magic</p>
     <br />
-    <img className='screenshot' src="/screenshot.png" />
+    <img className='screenshot' alt="Pathephone music streaming app screenshot" src="/screenshot.png" />
     <hr />
     <div className="key-features w3-center">
       <KeyFeature
