@@ -30,7 +30,7 @@ export default () => (
       <KeyFeature
         Icon={MdHq}
         short='No quality limits'
-        full='You are free to share and listen vynil quality music if you wish'
+        full='You are free to share and listen vinyl quality music if you wish'
       />
       <KeyFeature
         Icon={MdNote}
