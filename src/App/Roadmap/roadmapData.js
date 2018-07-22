@@ -8,11 +8,19 @@ const roadmapData = [
     checked: true
   },
   {
-    text: 'Sync music library across devices',
+    text: 'Delayed music search',
     checked: false
   },
   {
-    text: 'Decentralized music search engine',
+    text: 'Favorite albums collection',
+    checked: false
+  },
+  {
+    text: 'Sync personal library across devices',
+    checked: false
+  },
+  {
+    text: 'Pathephone headless for media servers',
     checked: false
   },
   {
