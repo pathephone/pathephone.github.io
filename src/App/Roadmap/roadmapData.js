@@ -1,18 +1,18 @@
 const roadmapData = [
   {
-    text: 'Stream music across the web without a single server.',
+    text: 'Stream music across the web without a single server',
     checked: true
   },
   {
-    text: 'Discover music across the web without a single server.',
+    text: 'Discover music across the web without a single server',
     checked: true
   },
   {
-    text: 'Sync music library across devices.',
+    text: 'Sync music library across devices',
     checked: false
   },
   {
-    text: 'Decentralized music search engine.',
+    text: 'Decentralized music search engine',
     checked: false
   },
   {
