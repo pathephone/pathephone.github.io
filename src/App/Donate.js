@@ -14,7 +14,7 @@ export default () => (
     </div>
     <br />
     <div className='w3-center'>
-      <iframe title='yandex-wallet' src="https://money.yandex.ru/quickpay/shop-widget?writer=seller&targets=To%20support%20Pathephone%20development&targets-hint=&default-sum=&button-text=14&payment-type-choice=on&hint=&successURL=&quickpay=shop&account=410015891281482" width="423" height="226" frameborder="0" allowtransparency="true" scrolling="no"></iframe>
+      <iframe title='yandex-wallet' src="https://money.yandex.ru/quickpay/shop-widget?writer=seller&targets=To%20support%20Pathephone%20development&targets-hint=&default-sum=&button-text=14&payment-type-choice=on&hint=&successURL=&quickpay=shop&account=410015891281482" width="423" height="226" frameborder="0" allowtransparency="true" scrolling="no" style={{ maxWidth: '100%'}}></iframe>
     </div>
   </div>
 )

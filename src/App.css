@@ -62,8 +62,7 @@ header {
 
 .screenshot {
   width: 50em;
-  margin-left: 50%;
-  transform: translateX(-50%);
+  max-width: 100%;
 }
 
 .w3-modal {
