@@ -68,3 +68,25 @@ header {
 .w3-modal {
   display: block;
 }
+
+.videos__slider {
+  overflow: hidden;
+}
+.videos__slider::first-line {
+  display: none;
+}
+.videos__link {
+  display: inline-block;
+  margin: 10px;
+}
+.videos__thumbnail {
+  max-width: 100%;
+  width: 480px;
+  height: 260px;
+  object-fit: cover;
+  border-radius: 5px;
+  box-shadow: 0 1px 2px 1px rgba(0,0,0,0.3);
+}
+.videos__playlist-link {
+  text-decoration: underline;
+}

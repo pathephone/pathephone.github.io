@@ -4,6 +4,7 @@ import KeyFeatures from './App/KeyFeatures'
 import Donate from './App/Donate'
 import Roadmap from './App/Roadmap'
 import Contacts from './App/Contacts'
+import Videos from './App/Videos';
 
 import './App.css'
 
@@ -16,6 +17,8 @@ class App extends Component {
         <hr />
         <Roadmap />
         <br />
+        <hr />
+        <Videos />
         <hr />
         <Donate />
         <hr />
