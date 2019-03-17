@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://pathephone.github.io",
   "dependencies": {
-    "gh-pages": "^1.1.0",
+    "gh-pages": "^2.0.1",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-icons": "^2.2.7",
